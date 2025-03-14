@@ -26,24 +26,20 @@ body {
   align-items: center;
 }
 
+
+
+
+.center {
+  display: flex;
+  flex: auto;
+}
+
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
   padding: 16px;
   flex-shrink: 0;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
-}
-
-
-.center {
-  display: flex;
-  flex: auto;
 }
 
 a {
@@ -60,4 +56,19 @@ ul {
 
 li {
   margin: 15px;
+}
+
+.content {
+  display: flex;
+  flex-flow: wrap;
+  padding: 48px;
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  width: 300px;
+  padding: 16px;
 }
