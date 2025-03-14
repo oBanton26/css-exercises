@@ -71,4 +71,5 @@ li {
   border-radius: 4px;
   width: 300px;
   padding: 16px;
+  flex: 1 0 auto;
 }
